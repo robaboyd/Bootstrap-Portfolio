@@ -1,0 +1,162 @@
+<!-- Table of Contents *ctrl-f to find quickly*
+
+1. Head
+    - Title
+    - Custom CSS
+    - Bootstrap 
+2. Body
+    - Navbar
+    - Main Container
+        - left column
+            - Content Heading
+            - About Me
+        - right column
+            - Social Header
+            - Social Box
+3. Footer
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--  Meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Title -->
+    <title>Bootstrap-Portfolio</title>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css">
+    <!-- 
+        ---------------
+        Font Awesome 
+        ---------------
+    -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg nav-wrapper">
+        <!-- Simple Nav centering -->
+        <div class="container">
+            <h1 class="navbar-brand">Robert Boyd</h1>
+            <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse">
+                <span class="navbar-toggler-icon">
+                    <i class="fas fa-bars"></i>
+                </span>
+            </button>
+            <div id="my-nav" class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">About</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main container -->
+
+        <div class="container margin-100">
+            <div class="row">
+                <!-- left column -->
+                <div class="col-xl-8 wrapper">
+
+                    <!-- Content Heading -->
+                    <div class="heading-div">
+                        <h1 class="content-heading">About Me</h1>
+                    <hr>
+                </div>
+                
+                <!-- About Me -->
+                <div class="content-div">
+                    <img class="profile-img" src="./assets/images/me1.jpg" alt="Image of Me" width="300px">
+                    <p>Hi! My name is Robert Boyd, but you can call me Bobby. I am an aspiring full stack web developer.
+                        I have a degree in Mass Communications from California State University, Sacramento. However, I have
+                        always been fascinated by web development ever since my highschool web class. Because of this fascination,
+                        I decided to embark on my web development journey.
+                    </p>
+                    <p id="secondP">My web development journey started when I got a job in IT. At my new IT job, well, I
+                        wasn't actually doing much work. Business was slow, and I was bored. So, I decided to remake their
+                        website, and from then on I knew that's what I wanted to do.
+                        <br> I remade their website first using Wordpress, however when that was done I decided that I wanted
+                        more.
+                    </p>
+                    <p>
+                        After I finished the new Wordpress website, I decided that I wanted to learn React. Not knowing how big of a step that was
+                        going to be, I watched Youtube video after Youtube video until I remade their website again. My new
+                        found fascination for React led me to enroll in a coding bootcamp. At the bootcamp I am ready to
+                        hone my coding skills and prepare myself for a web development career.
+                    </p>
+                </div>
+
+            </div>
+            
+            <!-- Right Column -->
+            <div class="col-xl-4 socials-column">
+                <div class="socials-wrapper">
+                    <!-- Social Header -->
+                    <div class="social-header">
+                        <h3>My Info</h3>
+                        <hr>
+                    </div>
+                    <!-- Social Box -->
+                    <div class="social-div">
+                        <ul class="social-list">
+                            <li>
+                                <a href="https://github.com/robaboyd" target="_blank">
+                                    <img class="iconsImg bounce" src="./assets/images/GitHub-Mark-64px.png" alt="github" width="52px">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/robert-boyd-99bb0664/" target="_blank">
+                                    <img class="iconsImg" src="./assets//images/In-Black-66px-R.png" alt="linked in" width="60px">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://stackoverflow.com/users/6284704/alpha9094" target="_blank">
+                                    <img class="iconsImg" src="./assets/images/stackoverflow.png" alt="twitter" width="52px">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    
+
+
+    <!-- Footer -->
+        
+    <footer class="footer">
+            <div class="container">
+                Copyright &copy;
+            </div>
+        </footer>
+
+
+
+</body>
+
+</html>

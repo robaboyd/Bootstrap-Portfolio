@@ -1,0 +1,168 @@
+<!-- Table of Contents *ctrl-f to find quickly*
+
+1. Head
+    - Title
+    - Custom CSS
+    - Bootstrap 
+2. Body
+    - Navbar
+    - Main Container
+        - left column
+            - Content Heading
+            - About Me
+        - right column
+            - Social Header
+            - Social Box
+3. Footer
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--  Meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Title -->
+    <title>Bootstrap-Portfolio</title>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css">
+    <!-- 
+        ---------------
+        Font Awesome 
+        ---------------
+    -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg nav-wrapper">
+        <!-- Simple Nav centering -->
+        <div class="container">
+            <h1 class="navbar-brand">Robert Boyd</h1>
+            <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse">
+                <span class="navbar-toggler-icon">
+                    <i class="fas fa-bars"></i>
+                </span>
+            </button>
+            <div id="my-nav" class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">About</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main container -->
+
+        <div class="container margin-100">
+            <div class="row">
+                <!-- left column -->
+                <div class="col-xl-8 wrapper">
+
+                    <!-- Content Heading -->
+                    <div class="heading-div">
+                        <h1 class="content-heading">Portfolio</h1>
+                    <hr>
+                </div>
+                
+               <!-- Portfolio Box -->
+        <div class="content-div">
+
+                <div class="clearFloat">
+                    <div class="portfolioDivs" id="portfolio1">
+                        <h4 class="portfolioTitles">Hangman</h4>
+                    </div>
+                    <div class="portfolioDivs" id="portfolio2">
+                        <h4 class="portfolioTitles">RPG Game</h4>
+                    </div>
+                </div>
+    
+                <div class="clearFloat">
+                    <div class="portfolioDivs" id="portfolio3">
+                        <h4 class="portfolioTitles">Trivia Game</h4>
+                    </div>
+                    <div class="portfolioDivs" id="portfolio4">
+                        <h4 class="portfolioTitles">Rutgers Info Widget</h4>
+                    </div>
+                </div>
+    
+                <div class="clearFloat">
+                    <div class="portfolioDivs" id="portfolio5">
+                        <h4 class="portfolioTitles">Rock Paper Scissors</h4>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+            
+            <!-- Right Column -->
+            <div class="col-xl-4 socials-column">
+                <div class="socials-wrapper">
+                    <!-- Social Header -->
+                    <div class="social-header">
+                        <h3>My Info</h3>
+                        <hr>
+                    </div>
+                    <!-- Social Box -->
+                    <div class="social-div">
+                        <ul class="social-list">
+                            <li>
+                                <a href="https://github.com/robaboyd" target="_blank">
+                                    <img class="iconsImg bounce" src="./assets/images/GitHub-Mark-64px.png" alt="github" width="52px">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/robert-boyd-99bb0664/" target="_blank">
+                                    <img class="iconsImg" src="./assets//images/In-Black-66px-R.png" alt="linked in" width="60px">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://stackoverflow.com/users/6284704/alpha9094" target="_blank">
+                                    <img class="iconsImg" src="./assets/images/stackoverflow.png" alt="twitter" width="52px">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    
+
+
+    <!-- Footer -->
+        
+    <footer class="footer">
+            <div class="container">
+                Copyright &copy;
+            </div>
+        </footer>
+
+
+
+</body>
+
+</html>
